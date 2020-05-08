@@ -1,0 +1,12 @@
+[Unit]
+Description=node demo app
+After=network.target
+
+[Service]
+Type=simple
+User=daemon
+ExecStart=/usr/bin/nodejs /opt/node-demo-app/index.js
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

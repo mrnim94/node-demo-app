@@ -1,0 +1,11 @@
+Source: node-demo-app
+Section: unknown
+Priority: optional
+Maintainer: Edward Viaene <ward@in4it.io>
+Standards-Version: 0.0.1
+
+Package: node-demo-app
+Architecture: any
+Depends: nodejs
+Description: node demo application
+ node demo application that prints hello world
